@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música y más en Colombia</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+    <!-- Navegación superior -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="font-bold text-lg text-blue-600 hover:underline">← Volver al Inicio</a>
+            <span class="text-sm text-gray-500">Blog Académico Ciudadano</span>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="max-w-4xl mx-auto px-6 py-10 bg-white shadow-sm my-8 rounded-2xl">
+        <h1 class="text-3xl font-extrabold text-gray-900 mb-6">Música en Colombia</h1>
+        
+        <!-- AQUI VA EL CONTENIDO ESPECÍFICO DE CADA TAREA -->
+        <!-- AQUI VA EL CONTENIDO ESPECÍFICO DE CADA TAREA -->
+        <div class="bg-blue-50 p-6 rounded-xl border border-blue-100 my-6">
+            <h3 class="font-bold text-blue-900 mb-2">Escucha el Episodio del Podcast</h3>
+            <!-- Si usas Spotify, reemplaza el enlace en 'src'. Si usas SoundCloud, pega su iframe aquí -->
+            <iframe 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/episode/2Nz19Gvp3R9h4hH5QyQfzZ?utm_source=generator" 
+                width="100%" 
+                height="152" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+    
+            <!-- OPCIÓN ALTERNATIVA: Si grabaste un MP3 y lo guardaste en tu carpeta assets/audio/ usa este código y borra el iframe de arriba -->
+            <!-- <audio controls class="w-full mt-2"><source src="assets/audio/podcast-tarea4.mp3" type="audio/mpeg">Tu navegador no soporta el elemento de audio.</audio> -->
+        </div>
+
+        <div class="mt-6 space-y-6">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                <h4 class="font-bold text-xl text-gray-800 mb-4">Nota del episodio (Show Notes):</h4>
+                <ul class="list-none space-y-4 text-gray-700">
+                    <li>
+                        <strong class="text-blue-800">1. ¿Quién fue Joe Arroyo?</strong>
+                        <p class="mt-1">Álvaro José Arroyo González, conocido artísticamente como Joe Arroyo, fue uno de los cantautores e intérpretes más importantes e influyentes en la historia de la música colombiana y latinoamericana. Nacido en Cartagena y consolidado musicalmente en Barranquilla, creó un ritmo único denominado el "Joeson", que fusionó la salsa con la cumbia, el soca, el compás haitiano y diversos ritmos afrocaribeños. Más allá de su virtuosismo vocal y su capacidad de hacer bailar a generaciones, Joe Arroyo fue la voz del pueblo del Caribe colombiano, un artista que llevó la identidad afrodescendiente, la vida cotidiana de los barrios y la historia olvidada a los escenarios internacionales.</p>
+                    </li>
+                    <li>
+                        <strong class="text-blue-800">2. Análisis de "La Rebelión":</strong>
+                        <p class="mt-1">La canción "La Rebelión" es un himno épico de memoria histórica y resistencia afrodescendiente. Ambientada en la Cartagena del siglo XVII, narra la historia de una pareja de africanos esclavizados y la reacción de rebelión cuando un amo español agrede a la mujer ("no le pegue a la negra"). Su legado radica en que logró algo revolucionario en la música comercial de la época: utilizar el espacio de la fiesta y el baile para hacer pedagogía histórica, denuncia social y reivindicación étnica. Como he sostenido al analizar nuestra Constitución, el poder legítimo y la dignidad residen en el pueblo. "La Rebelión" demuestra cómo, a lo largo de la historia de Colombia, la búsqueda de libertad y la resistencia contra la opresión no han venido de las élites, sino de la fuerza popular que se niega a ser sometida. La canción convirtió el dolor de la esclavitud en un grito universal de justicia social.</p>
+                    </li>
+                    <li>
+                        <strong class="text-blue-800">3. Mi Recomendación Musical: Los Petit Fellas</strong>
+                        <p class="mt-1">Músico/Agrupación recomendada: Los Petit Fellas (Bogotá, Colombia). <br><br>Justificación del aporte:
+                            <br><br>Recomiendo a Los Petit Fellas, una de las agrupaciones más propositivas y valiosas de la escena alternativa colombiana contemporánea. Su propuesta fusiona con maestría el hip-hop, el jazz, el soul, la salsa y el rock, acompañada de una narrativa poética, urbana y reflexiva.
+                            <br><br>Los Petit Fellas son indispensables para comprender la Colombia actual porque le dan voz a las vivencias, dudas, luchas e ideales de las nuevas generaciones urbanas. Sus letras capturan la complejidad de vivir en nuestras ciudades, abordando temas como el amor, la salud mental, la desigualdad y la resiliencia ciudadana. Representan cómo la música popular sigue siendo una herramienta viva para cuestionar la realidad y construir tejido social desde la cultura.
+                            <br><br>Muestra de su obra:
+                            <br><br>Destaco la canción "Antes de morir" (o "Los Otros"), una muestra impecable de su sensibilidad poética, su riqueza instrumental y su capacidad para conectar con el sentir popular de la juventud colombiana.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-4 bg-gray-900 p-4 rounded-xl shadow-md">
+            <h5 class="font-bold text-sm text-gray-200 mb-3 flex items-center gap-2">
+                <!-- Ícono decorativo / Muestra de Spotify -->
+                <svg class="w-5 h-5 text-green-500 fill-current" viewBox="0 0 24 24">
+                    <path d="M12 0C5.376 0 0 5.377 0 12s5.376 12 12 12 12-5.377 12-12S18.624 0 12 0zm5.521 17.341c-.217.357-.68.473-1.037.256-2.837-1.733-6.408-2.126-10.618-1.163-.404.093-.812-.162-.904-.565-.094-.405.161-.813.565-.905 4.609-1.052 8.563-.604 11.738 1.336.357.218.473.682.256 1.041zm1.486-3.307c-.273.443-.853.584-1.296.311-3.245-1.995-8.192-2.572-12.03-1.407-.497.151-1.026-.13-1.177-.626-.15-.497.13-1.026.626-1.177 4.383-1.33 9.851-.689 13.566 1.598.443.273.584.853.311 1.299zm.134-3.439C15.252 8.243 8.856 8.034 5.158 9.158c-.611.185-1.258-.168-1.443-.778-.185-.611.168-1.258.778-1.443 4.251-1.29 11.316-1.048 15.82 1.625.55.326.732 1.038.406 1.588-.325.549-1.037.732-1.588.406z"/>
+                </svg>
+                Muestra de la obra en Spotify:
+            </h5>
+
+            <!-- Reproductor incrustado de Spotify -->
+            <iframe 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/track/7zIKIZikeuB5unaal9v7ko?utm_source=generator" 
+                width="100%" 
+                height="152" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <!-- NOTA OBLIGATORIA: FUENTES Y BIBLIOGRAFÍA -->
+        <hr class="my-12 border-t-2 border-gray-100">
+        <footer class="bg-gray-50 p-6 rounded-xl border border-gray-200 text-sm">
+            <h4 class="font-bold text-gray-800 mb-2">Fuentes y Bibliografía</h4>
+            <ul class="list-disc pl-5 space-y-1 text-gray-600">
+                <li>Arroyo, J. (1986). <em>La Rebelión</em> [Canción]. En <em>Musa Original</em>. Discos Fuentes.</li>
+                <li>Los Petit Fellas. (2020). Propuesta musical y lírica en el hip-hop/jazz alternativo colombiano.</li>
+            </ul>
+        </footer>
+    </main>
+
+</body>
+</html>

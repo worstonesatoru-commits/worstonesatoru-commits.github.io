@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi Blog Académico</title>
+    <!-- Cargando los estilos visuales de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+    <!-- Encabezado / Hero Section -->
+    <header class="bg-blue-900 text-white py-16 text-center shadow-md">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Reflexiones Ciudadanas</h1>
+        <p class="text-xl md:text-2xl font-light">Colombia, Cultura y Sociedad</p>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-10">
+        
+        <!-- Tarjeta de Presentación (Requisito del profesor) -->
+        <section class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 mb-10 flex flex-col md:flex-row items-center md:items-start gap-6">
+            <div class="w-24 h-24 bg-gray-200 rounded-full flex-shrink-0 overflow-hidden shadow-inner">
+                <!-- Puedes poner tu foto aquí guardándola en la carpeta img -->
+                <img src="assets/img/mi-retrato.jpg" alt="Mi foto" class="w-full h-full object-cover">
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-2">Sobre el Autor</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Bienvenidos a mi blog académico. Este espacio ha sido creado para compilar y presentar las tareas correspondientes al 20% del último corte de la asignatura, fomentando la reflexión sobre nuestra Constitución, sociedad y entorno.
+                </p>
+                <!-- IMPORTANTE: Llena estos datos para que el profesor te identifique fácilmente -->
+                <ul class="mt-4 text-sm font-medium text-gray-700 bg-gray-100 p-4 rounded-lg border border-gray-200 inline-block">
+                    <li><strong class="text-blue-900">Estudiante:</strong> [Duván Felipe Chala Rodríguiez]</li>
+                    <li><strong class="text-blue-900">Clase:</strong> [Constitución Política]</li>
+                    <li><strong class="text-blue-900">Día y Hora:</strong> [Lunes: 9:00 AM - 11:00 AM]</li>
+                    <li><strong class="text-blue-900">Hora de acceso:</strong> <span id="reloj" class="text-gray-600 font-mono">Cargando...</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Índice de Tareas (Cuadrícula / Grid) -->
+        <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-2">Índice de Tareas</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Tarea 1 -->
+            <a href="tarea1.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 1</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Preámbulo y Constitución</h3>
+                <p class="text-gray-600 text-sm mt-2">Análisis sobre el origen del poder y la estructura de la Constitución de 1991.</p>
+            </a>
+
+            <!-- Tarea 2 -->
+            <a href="tarea2.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 2</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Esfera Pública y Privada</h3>
+                <p class="text-gray-600 text-sm mt-2">Fotoreportaje y reflexión sobre la complementariedad de nuestras esferas de vida.</p>
+            </a>
+
+            <!-- Tarea 3 -->
+            <a href="tarea3.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 3</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Medioambiente y Chiribiquete</h3>
+                <p class="text-gray-600 text-sm mt-2">Reseña del Museo Nacional y análisis del documental sobre la memoria ancestral.</p>
+            </a>
+
+            <!-- Tarea 4 -->
+            <a href="tarea4.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 4</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Música en Colombia</h3>
+                <p class="text-gray-600 text-sm mt-2">El legado de Joe Arroyo, "La Rebelión" y recomendaciones musicales (Podcast).</p>
+            </a>
+
+            <!-- Tarea 5 -->
+            <a href="tarea5.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 5</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Literatura y violencia</h3>
+                <p class="text-gray-600 text-sm mt-2">Análisis del cuento "Espuma y nada más" y el futuro de la lectura en el país.</p>
+            </a>
+
+            <!-- Tarea 6 -->
+            <a href="tarea6.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 6</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Mecanismos de DDHH</h3>
+                <p class="text-gray-600 text-sm mt-2">Infografía sobre los mecanismos constitucionales de protección ciudadana.</p>
+            </a>
+
+            <!-- Tarea 7 -->
+            <a href="tarea7.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 7</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Animales y ética ciudadana</h3>
+                <p class="text-gray-600 text-sm mt-2">Postura sobre espectáculos, pólvora y la historia de un animal de compañía.</p>
+            </a>
+
+            <!-- Tarea 8 -->
+            <a href="tarea8.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 8</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Liderazgos políticos</h3>
+                <p class="text-gray-600 text-sm mt-2">Análisis comparativo de líderes positivos y negativos a nivel nacional e internacional.</p>
+            </a>
+
+            <!-- Tarea 9 -->
+            <a href="tarea9.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 9</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Turismo presente y futuro</h3>
+                <p class="text-gray-600 text-sm mt-2">Decálogo del turista respetuoso y recomendaciones de destinos clave.</p>
+            </a>
+
+            <!-- Tarea 10 -->
+            <a href="tarea10.html" class="block bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 border border-transparent transition-all group">
+                <span class="text-blue-600 font-bold text-xs tracking-wide uppercase">Tarea 10</span>
+                <h3 class="text-xl font-bold text-gray-800 mt-2 group-hover:text-blue-700">Balance Final</h3>
+                <p class="text-gray-600 text-sm mt-2">Carta y reflexión personal sobre el futuro y la visión de Colombia a 30 años.</p>
+            </a>
+
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-800 text-gray-400 py-8 text-center text-sm mt-12">
+        <p class="font-bold text-gray-200">Entrega de Proyecto Final</p>
+        <p class="mt-1">Pontificia Universidad Javeriana - 2026</p>
+    </footer>
+
+    <!-- Script para el reloj en tiempo real -->
+    <script>
+        function actualizarReloj() {
+            // Obtiene la fecha y hora actual
+            const ahora = new Date();
+            
+            // Configura el formato para Colombia
+            const opciones = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit', 
+                minute: '2-digit', 
+                second: '2-digit'
+            };
+            
+            // Convierte la fecha a texto en español
+            const fechaTexto = ahora.toLocaleDateString('es-CO', opciones);
+            
+            // Inyecta el texto en el HTML
+            document.getElementById('reloj').textContent = fechaTexto;
+        }
+
+        // Ejecuta la función inmediatamente y luego cada 1000 milisegundos (1 segundo)
+        actualizarReloj();
+        setInterval(actualizarReloj, 1000);
+    </script>
+
+</body>
+</html>
